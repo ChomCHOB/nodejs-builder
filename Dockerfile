@@ -8,5 +8,8 @@ RUN set -ex; \
   # install build dependencies
   apk add --no-cache make gcc g++ python git; \
   \
-  # standard for style checking
-  npm i -g standard; 
+  # style checking and unit test
+  npm i -g \
+    standard \
+    mocha \
+    ;
