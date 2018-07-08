@@ -15,9 +15,13 @@ RUN set -ex; \
     chai \
     nyc \
     sinon \
+    npm \
     \
     ts-node \
     source-map-support \
     tslint \
     typescript \
-    ;
+    ; \
+  \
+  npm -v; \
+  yarn -v;
